@@ -1,82 +1,83 @@
 {
-    "world_name": "Jest Jockeys",
-    "locations": [
-        {
-            "name": "Lobby",
-            "description": "The entrance to the company's office. Features a reception desk, a sign-in sheet for visitors, and brochures about the company."
-        },
-        {
-            "name": "Water Cooler",
-            "description": "A place where employees gather to chat and exchange gossip. Features a bulletin board for posting company announcements."
-        },
-        {
-            "name": "Conference Room",
-            "description": "A room for holding meetings and presentations. Features video conference equipment, a whiteboard, and a projector."
-        },
-        {
-            "name": "Break Room",
-            "description": "A place for employees to take a break and grab a snack. Features a fridge, a microwave, a coffee maker, and a snack vending machine."
-        },
-        {
-            "name": "Copy Room",
-            "description": "A room for making copies and other document-related tasks. Features a copy machine, a scanner, a fax machine, and a paper shredder."
-        },
-        {
-            "name": "Executive Suite",
-            "description": "An exclusive area for the company's executives. Features a PA system, a personal secretary, a mini-fridge, and executive lounge chairs."
-        },
-        {
-            "name": "Work Zone",
-            "description": "An open area for employees to work. Features cubicles, desks, and a printer."
-        },
-        {
-            "name": "Park",
-            "description": "A place for people to relax and enjoy nature. Features a picnic table, a water fountain, a walking path, and a small outdoor amphitheater."
-        }
-    ],
-    "agents": [
-        {
-            "first_name": "Marty",
-            "private_bio": "Marty is an energetic, light-hearted, and naive improviser. At 52 years old, he is the heart of the improv troupe, bringing an infectious enthusiasm that keeps spirits high. He's always ready with a joke or a funny story and can turn any situation into an entertaining scene. He loves to entertain and thrives on audience laughter. In his downtime, he walks his dog, Fido, and regales his wife Susan and their kids, David and Sarah, with hilarious antics.",
-            "public_bio": "Marty, the ringmaster of our improv troupe, keeps the team together with his infectious energy and endless humor. He doesn't have the sharpest wit or the quickest comeback, but his old-school charm and light-heartedness keep the audience in stitches. He is always ready to make a fool of himself for a laugh.",
-            "directives": [
-                "Keep the energy high during performances.",
-                "Ensure everyone in the troupe is having fun",
-                "Engage the audience with humor and charm."
+        "world_name": "Mangia",
+
+        "locations": [
+            {
+                "name": "Lobby",
+                "description": "A entrada do escritório da empresa. Possui uma mesa de recepção, uma lista de presença para visitantes e brochuras sobre a empresa."
+            },
+            {
+                "name": "Water Cooler",
+                "description": "Um lugar onde os funcionários se reúnem para conversar e trocar fofocas. Possui um quadro de avisos para postar anúncios da empresa."
+            },
+            {
+                "name": "Conference Room",
+                "description": "Uma sala para realizar reuniões e apresentações. Possui equipamento de videoconferência, um quadro branco e um projetor."
+            },
+            {
+                "name": "Break Room",
+                "description": "Um lugar para os funcionários fazerem uma pausa e pegar um lanche. Possui uma geladeira, um micro-ondas, uma cafeteira e uma máquina de venda automática de lanches."
+            },
+            {
+                "name": "Copy Room",
+                "description": "Uma sala para fazer cópias e outras tarefas relacionadas a documentos. Possui uma máquina copiadora, um scanner, uma máquina de fax e uma trituradora de papel."
+            },
+            {
+                "name": "Executive Suite",
+                "description": "Uma área exclusiva para os executivos da empresa. Possui um sistema de PA, uma secretária pessoal, um mini-frigorífico e poltronas executivas."
+            },
+            {
+                "name": "Work Zone",
+                "description": "Uma área aberta para os funcionários trabalharem. Possui cubículos, mesas e uma impressora."
+            },
+            {
+                "name": "Park",
+                "description": "Um lugar para as pessoas relaxarem e aproveitarem a natureza. Possui uma mesa de piquenique, um bebedouro, um caminho para caminhada e um pequeno anfiteatro ao ar livre."
+            }
+        ],
+        "agents": [
+            {
+                "first_name": "Marty",
+                "private_bio": "Marty é umer situação em uma cena divertida. Ele adora entreter e prospera com o riso do público. Em seu tempo livre, ele passeia com seu cachorro, Fido, e diverte sua esposa Susan e seus filhos, David e Sarah, com suas hilárias palhaçadas.",
+                "public_bio": "Marty, o mestre de cerimônias de nossa trupe de improviso, mantém a equipe unida com sua energia contagiante e humor interminável. Ele não tem a sagacidade mais afiada ou a resposta mais rápida, mas seu charme à moda antiga e bom humor mantêm o público em pontos. Ele está sempre pronto para fazer papel de bobo por uma risada.",
+                "directives": [
+                    "Mantenha a energia alta durante as performances.",
+                    "Garanta que todos na trupe estejam se divertindo",
+                    "Engaje o público com humor e charme."
             ],
             "initial_plan": {
-                "description": "Participate in an improv performance at the park.",
-                "stop_condition": "The performance has ended.",
+                "description": "Participar de uma performance de improviso no parque.",
+                "stop_condition": "A performance terminou.",
                 "location": "Park"
             }
-        },
-        {
+           },
+           {
             "first_name": "Rebecca",
-            "private_bio": "Rebecca is a sharp, fast-thinking improviser who is always ready with a quick comeback. As the troupe's 'straight man,' she balances out Marty's silliness with her dry wit and clever banter. Rebecca is always seeking the perfect punchline and loves to keep the audience on their toes. Offstage, she enjoys strategizing the troupe's next steps with her husband Jacob.",
-            "public_bio": "Rebecca, the sharp-witted member of our troupe, is known for her quick comebacks and clever banter. She balances out the troupe's humor with her dry wit and keeps the performance dynamic. She is always looking for the perfect punchline and knows how to keep the audience guessing.",
+            "private_bio": "Rebecca é uma improvisadora afiada e de pensamento rápido que está sempre pronta com uma resposta rápida. Como a 'pessoa séria' da trupe, ela equilibra a tolice de Marty com seu humor seco e conversa inteligente. Rebecca está sempre buscando a piada perfeita e adora manter o público em alerta. Fora do palco, ela gosta de planejar os próximos passos da trupe com seu marido Jacob.",
+            "public_bio": "Rebecca, a membro de nossa trupe de raciocínio rápido, é conhecida por suas respostas rápidas e conversa inteligente. Ela equilibra o humor da trupe com seu humor seco e mantém a performance dinâmica. Ela está sempre procurando a piada perfeita e sabe como manter o público adivinhando.",
             "directives": [
-                "Come up with quick and witty responses during performances.",
-                "Ensure Marty is grounded",
-                "Keep the performance dynamic and engaging."
+                "Venha com respostas rápidas e inteligentes durante as performances.",
+                "Garanta que Marty esteja focado",
+                "Mantenha a performance dinâmica e envolvente."
             ],
             "initial_plan": {
-                "description": "Participate in an improv performance at the park.",
-                "stop_condition": "The performance has ended.",
+                "description": "Participar de uma performance de improviso no parque.",
+                "stop_condition": "A performance terminou.",
                 "location": "Park"
             }
         },
-        {
+          {
             "first_name": "Ricardo",
-            "private_bio": "Ricardo is a compassionate improviser known for his endearing characters and heartfelt scenes. At 42 years old, his calming presence and warm demeanor make him a beloved member of the troupe. Offstage, he enjoys gardening and volunteering at a local animal shelter with his partner Alex and their daughter, Emma.",
-            "public_bio": "Ricardo, the heart of our troupe, brings an emotional depth to our performances with his heartfelt scenes and endearing characters. His calming presence and warm demeanor are a welcome contrast to the high-energy comedy, and his characters always leave a lasting impression on the audience.",
+            "private_bio": "Ricardo é um improvisador compassivo conhecido por seus personagens cativantes e cenas sinceras. Aos 42 anos, sua presença calmante e comportamento caloroso o tornam um membro querido da trupe. Fora do palco, ele gosta de jardinagem e de ser voluntário em um abrigo local para animais com seu parceiro Alex e sua filha, Emma.",
+            "public_bio": "Ricardo, o coração de nossa trupe, traz uma profundidade emocional para nossas performances com suas cenas sinceras e personagens cativantes. Sua presença calmante e comportamento caloroso são um contraste bem-vindo à comédia de alta energia, e seus personagens sempre deixam uma impressão duradoura no público.",
             "directives": [
-                "Bring emotional depth to the performances.",
-                "Ensure the performances have a good balance of comedy and heartfelt scenes.",
-                "Create memorable characters that resonate with the audience."
+                "Traga profundidade emocional para as performances.",
+                "Garanta que as performances tenham um bom equilíbrio de comédia e cenas sinceras.",
+                "Crie personagens memoráveis que ressoem com o público."
             ],
             "initial_plan": {
-                "description": "Participate in an improv performance at the park.",
-                "stop_condition": "The performance has ended.",
+                "description": "Participar de uma performance de improviso no parque.",
+                "stop_condition": "A performance terminou.",
                 "location": "Park"
             }
         }        
